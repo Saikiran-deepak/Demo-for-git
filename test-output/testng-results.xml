@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-02T13:14:52 IST" name="Default suite" finished-at="2022-09-02T13:15:12 IST" duration-ms="20299">
+  <suite started-at="2022-09-04T18:31:06 IST" name="Default suite" finished-at="2022-09-04T18:32:44 IST" duration-ms="97800">
     <groups>
     </groups>
-    <test started-at="2022-09-02T13:14:52 IST" name="Default test" finished-at="2022-09-02T13:15:12 IST" duration-ms="20299">
-      <class name="WebTables.Population">
-        <test-method signature="test2()[pri:0, instance:WebTables.Population@51f116b8]" started-at="2022-09-02T13:14:52 IST" name="test2" finished-at="2022-09-02T13:15:12 IST" duration-ms="20164" status="PASS">
+    <test started-at="2022-09-04T18:31:06 IST" name="Default test" finished-at="2022-09-04T18:32:44 IST" duration-ms="97800">
+      <class name="AlertsAndPopUP.Alerts">
+        <test-method signature="Test()[pri:0, instance:AlertsAndPopUP.Alerts@140c9f39]" started-at="2022-09-04T18:31:06 IST" name="Test" finished-at="2022-09-04T18:31:20 IST" duration-ms="13713" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- WebTables.Population -->
+        </test-method> <!-- Test -->
+        <test-method signature="TestPopup()[pri:0, instance:AlertsAndPopUP.Alerts@140c9f39]" started-at="2022-09-04T18:31:20 IST" name="TestPopup" finished-at="2022-09-04T18:32:44 IST" duration-ms="83943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPopup -->
+      </class> <!-- AlertsAndPopUP.Alerts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
