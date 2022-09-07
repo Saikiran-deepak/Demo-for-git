@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AlertsAndPopUP.Alerts">
+      <class name="Excel.Excel_REad">
         <methods>
-          <include name="TestPopup"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- AlertsAndPopUP.Alerts -->
+      </class> <!-- Excel.Excel_REad -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
